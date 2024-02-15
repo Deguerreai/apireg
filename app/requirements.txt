@@ -1,9 +1,4 @@
-flask
-flask-cors  # Address potential CORS issues (from Response B)
-request
-requests  # Consider including if making external API calls (from Response B)
-jsonify
-jinja2
-pandas
-catboost
-pickle
+flask==2.0.1
+pandas==1.2.4
+catboost==0.26
+
